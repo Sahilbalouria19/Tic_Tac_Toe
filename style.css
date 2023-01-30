@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: lightblue;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 4em;
+    text-align: center;
+    height: 80px;
+}
+body{
+    background-color: aliceblue;
+}
+td{
+    border: 2px solid #333;
+    height: 100px;
+    width: 100px;
+    border-width: 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-size: 70px;
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;
+    position: absolute;
+    top: 50%;
+    margin-top: 155px;
+    left: 50%;
+    margin-left: -155px;
+    top: 50px;
+}
+
+table tr:first-child td{
+    border-top: 0;
+}
+table tr:last-child td{
+    border-bottom: 0;
+}
+table tr td:first-child {
+    border-left: 0;
+}
+table tr td:last-child {
+    border-right: 0;
+}
+
+.btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+.btn:hover{
+    background-color: yellowgreen;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor:grab;
+}  
+
+.endgame{
+    display: block;
+    width: 200px;
+    top: 520px;
+    background-color: lightblue;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color:white;
+    font-size: 2em;
+}
